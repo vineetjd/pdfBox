@@ -12,5 +12,12 @@ public class randomCode {
 				System.out.println(j);
 		}
 	}
+
+	public void printStars(int k){
+		for(int i = 0; i < k; i++){
+			for(int j = 0; j <= i; j++)
+				System.out.println(j);
+		}
+	}
 	
 }
